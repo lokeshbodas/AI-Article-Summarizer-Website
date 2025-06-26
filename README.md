@@ -34,16 +34,27 @@ A modern web application that summarizes articles using AI. Built with **React**
 
 ## Project Structure
 ├── public/
+│   └── favicon.ico
 ├── src/
 │   ├── assets/
-│   ├── [App.jsx](http://_vscodecontentref_/0)
-│   ├── [App.css](http://_vscodecontentref_/1)
-│   ├── [main.jsx](http://_vscodecontentref_/2)
-│   └── ...
-├── [index.html](http://_vscodecontentref_/3)
-├── [package.json](http://_vscodecontentref_/4)
-└── ...
-
+│   │   ├── copy.svg
+│   │   ├── grid.svg
+│   │   ├── index.js
+│   │   ├── link.svg
+│   │   ├── loader.svg
+│   │   ├── logo.svg
+│   │   └── tick.svg
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+├── eslint.config.js
+├── README.md
+├── .gitignore
+└── index.js
 
 Development Notes
   1. Uses RTK Query for conditional API requests.
