@@ -31,8 +31,9 @@ A modern web application that summarizes articles using AI. Built with **React**
   npm run dev
 
 4. Open http://localhost:5173 in your browser.
-
 ## Project Structure
+
+```text
 ├── public/
 │   └── favicon.ico
 ├── src/
@@ -55,6 +56,7 @@ A modern web application that summarizes articles using AI. Built with **React**
 ├── README.md
 ├── .gitignore
 └── index.js
+```
 
 Development Notes
   1. Uses RTK Query for conditional API requests.
