@@ -32,7 +32,7 @@ A modern web application that summarizes articles using AI. Built with **React**
 
 4. Open http://localhost:5173 in your browser.
 
-Project Structure
+## Project Structure
 ├── public/
 ├── src/
 │   ├── assets/
@@ -43,6 +43,7 @@ Project Structure
 ├── [index.html](http://_vscodecontentref_/3)
 ├── [package.json](http://_vscodecontentref_/4)
 └── ...
+
 
 Development Notes
   1. Uses RTK Query for conditional API requests.
